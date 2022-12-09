@@ -1,0 +1,40 @@
+.titulo-principal{
+    text-align: center;
+    margin: 25px;
+}
+#contenedor{
+    text-align: center;
+    width: 100%;
+    height:100%
+}
+.derecha{
+   width: 40%;
+   display: flex;
+   font-size:x-large;
+   padding: 5%;
+   color: #0577C8
+}
+
+.izquierda{
+    width: 50%;
+    display: flex;
+    float: left;
+} 
+.img-censo{
+    height: 100%;
+}
+@media screen and (max-width:790px){
+    .derecha{
+        width: 80%;  
+        margin: 0 auto;
+    }
+   .img-censo {
+    width: 50%;
+    margin: 0 auto;
+
+    }
+    .izquierda{
+    margin: 0 auto;
+    width: 100%;
+    }
+}

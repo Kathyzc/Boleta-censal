@@ -1,0 +1,42 @@
+.contenedor-central{
+    width: 30vw;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.corridas, .probabilidad, .muestra{
+    width: 80%;
+    display: flex;
+    text-align: left;
+}
+.contenedor-boton{
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+.boton-generar{
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #084D6E;
+    border: 2px solid;
+    border-radius: 15px;
+}
+.boton-generar:hover{
+    color: #084D6E;
+    background-color: #fff;
+    border: 2px solid black;
+}
+.tabla-distribuciones{
+    width: 50vw;
+    margin: 0 auto;
+    margin-top: 2%;
+}

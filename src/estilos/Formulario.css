@@ -1,0 +1,112 @@
+.contenedor-formulario{
+    width:50%;
+    background:white;
+    border-radius:10px;
+    box-shadow:0 0 30px -14px #0577C8;
+    padding-top: 10px;
+    max-width:calc(100vw - 40px);
+    box-sizing:border-box;
+    color: #084D6E;
+    margin: 0 auto;
+    align-items: center;
+}
+.titulo-form{
+    text-align: center;
+    margin: 2%;
+}
+
+.contenedor-boton{
+    align-items: center;
+    text-align: center;
+}
+a.link.active{
+color: black;
+font-weight: bold;
+}
+
+.boton-registrar{
+    width: 25%;
+    padding: 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #084D6E;
+    border: none;
+    border-radius: 15px;
+    margin: 20px;
+  }
+  .boton-vivienda{
+    width: 15%;
+    padding: 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #084D6E;
+    border: none;
+    border-radius: 15px;
+    margin: 20px;
+  }
+  .contenedor-insertar-eliminar{
+     text-align: center;
+  }
+  .boton-insertar , .boton-eliminar{
+    width: 30%;
+    padding: 15px 25px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #084D6E;
+    border: none;
+    border-radius: 15px;
+    margin: 20px;
+  }
+  .texto{
+    text-align: right;
+    color: black;
+    width: 70%;
+    float: right;
+  }
+ a {
+    color: white;
+    text-decoration: none;
+}
+ .active {
+    color: white;
+    font-weight: normal;
+    text-decoration: none
+}
+
+table, tr , td{
+    border: 1px solid black;
+
+}
+table{
+    width: 95%;
+}
+@media screen and (max-width:1400px){
+    .contenedor-formulario{
+        width: 65%
+    }
+
+}
+@media screen and (max-width:982px){
+    .contenedor-formulario{
+        width: 75%
+    }
+
+}
+@media screen and (max-width:750px){
+    .contenedor-formulario{
+        width: 85%
+    }
+
+}

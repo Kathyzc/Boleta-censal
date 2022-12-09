@@ -1,0 +1,48 @@
+.contenedor-tabla{
+ width: 60%; 
+ margin:0 auto;
+}
+table {
+    align-items: center;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing:8px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 8px;
+    margin:0 auto;
+    font-size: 18px;
+    border-collapse: collapse;
+}
+th {   
+    font-weight: normal;    
+    padding: 8px;     
+    background: #0577C8;  
+    border-bottom: 1px solid #fff; 
+    color: white; }
+
+td {    
+    padding: 8px;    
+    width: 33%; 
+    background: #EDEDED;     
+    border-bottom: 1px solid #fff; 
+    border-top: 1px solid transparent; }
+
+tr:hover td { 
+    background: white; 
+    color:#084D6E
+}
+
+.titulo-hist{
+    text-align: center;
+    margin: 25px;
+}
+
+@media screen and (max-width:670px) {
+    .titulo h2{
+        font-size: 18px;
+    }
+    table{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,22 @@
+.contenedor{
+    height: 300px;
+    max-width: 600px;
+    padding: 10px 0 40px;
+    /* padding: 50px 20px;
+    margin: 40px;
+   
+    
+    border-radius: 12px;
+    border: 1px solid gray; */
+}
+h1{
+    /* margin: 10px; */
+}
+.graflinea {
+  font-family: sans-serif;
+  text-align: center;
+  width: 100%;
+}
+canvas{
+    width: 70%;
+}

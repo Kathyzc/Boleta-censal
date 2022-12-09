@@ -1,0 +1,50 @@
+.contenedor-proyecciones{
+    display: block;
+    width: 100%;
+}
+.central{
+    width: 30%;
+    text-align: left;
+    margin: 0 auto;
+}
+.cont-izquierda{
+    display:flex;
+    float: right;
+    width: 50%;
+    margin-right: 5%;
+}
+.cont-derecha{
+    float:left;
+    width: 30%;
+    padding: 2% 0;
+    margin: 0 auto;
+    margin-left: 5%;
+}
+.variable,.intervalo{
+  width: 100%;
+}
+.anio{
+    width: 80%;
+    display: flex;
+    float: left;
+}
+.number{
+    width: 20%;
+    float: right;
+    margin: 4%;
+}
+.boton-calcular{
+    margin-top: 5%;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #084D6E;
+    border: none;
+    border-radius: 15px;
+}
